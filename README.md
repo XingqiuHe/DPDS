@@ -1,5 +1,5 @@
 # Deep PDS Learning for AoI Minimization
-Source code for paper [Age-Based Scheduling for Mobile Edge Computing: A Deep Reinforcement Learning Approach](), written in python and tensorflow.
+Source code for paper [Age-Based Scheduling for Mobile Edge Computing: A Deep Reinforcement Learning Approach](https://ieeexplore.ieee.org/abstract/document/10449431), written in python and tensorflow.
 
 ## Usage
 ```bash
@@ -12,3 +12,12 @@ The running data are (i) recorded by the tf.summary module and can be viewed in 
 
 ## Citation
 If you find our code helpful, please consider citing our paper.
+```
+@article{he2024age,
+  title={Age-Based Scheduling for Mobile Edge Computing: A Deep Reinforcement Learning Approach},
+  author={He, Xingqiu and You, Chaoqun and Quek, Tony QS},
+  journal={IEEE Transactions on Mobile Computing},
+  year={2024},
+  publisher={IEEE}
+}
+```
