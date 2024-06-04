@@ -268,7 +268,8 @@ class DPDS:
         pds_q = q - b
         pds_h = h
         pds_d_r = tf.maximum(tf.constant(0, dtype=tf.float32), d_r - d)
-        pds_a = a - 5 * b
+        # explanation of the following update formula can be found here: https://github.com/XingqiuHe/DPDS/issues/2
+        pds_a = a - 3.3 * b 
         
         s = tf.stack([pds_d_r, pds_a, pds_q, pds_h], axis=2)
         return s
